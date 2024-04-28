@@ -1,1 +1,93 @@
+html {scroll-behavior: smooth;
+	  overflow: scroll;
+	  height: 100%;}
 
+header {border-radius: 15px;
+		background-color: #8C1414;
+        height: 300px;}
+		
+img {margin: 5px;}
+		
+h1 {text-align: center;
+	padding-top: 45px;
+    padding-left: 200px;
+	padding-right: 100px;
+	color: #CC3333;
+    font-size: 3em;}
+
+nav {width: auto;
+	 text-align: center;
+     font-weight: bold;
+     font-size: 1.5em;
+     padding-top: 5px;
+	 padding-bottom: 10px;
+	 margin-left: 5px;
+	 border-radius: 15px;
+	 min-height: 550px;
+	 height: auto;
+	 float: left;
+	 background-color: LightCoral;
+	 background-attachment: fixed;
+	 display: inline;}
+	 
+nav ul {list-style: none;
+		padding: 0;}
+	 
+nav li {padding: 0px 5px 5px 0px; 
+		background-color: Coral;
+		border: medium solid red;
+		margin: 12px 9px;
+		border-radius: 24px;
+		box-shadow: 2px 2px 2px #666666;}
+	 
+nav a {text-decoration: none; } /* Navigation Links without underlines */
+nav a:link {color: DodgerBlue}
+nav a:visited {color: SlateBlue}
+nav a:hover {color: Aqua;}
+nav a:active {color: DarkSlateBlue}
+		
+abbr {text-decoration: none;}
+
+h2 {padding-left:25px;}
+		
+main {margin-left: 220px;
+	  background-color: #EAEAEA;
+	  padding: 0 1em 2em 0;
+	  margin-right: 50px;
+	  margin-top: 20px;
+	  min-height: 600px;
+      display: block;}
+	  
+p {text-align: left;}
+p a {padding-left:60px;}
+	  
+dl {padding-left:5px;}
+	  
+table {margin-left:20px;}
+table tr th {padding-left:10px;padding-right:10px;}
+table tr td {padding-left:10px;padding-right:10px;}
+table, th, td {border: 1px solid black;}
+
+form {padding-left:30px;}
+form label {margin:10px;}
+form input {margin: 5px;padding:2px;}
+		
+body {background-color: #EBCECE;
+	  background-image: url("Shaw_Logo.png"); 
+	  background-repeat: no-repeat;
+      color: #221811;
+      font-family: Verdana, Arial, sans-serif; /*Set entire page font type*/
+	  font-size: 1.2em; /*Set entire page font size*/}
+	  
+		
+address {padding: 1px 2px 3px 2px;
+		text-align: center;
+		display: block;}		
+		
+footer {background-color: black;
+		color: white;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		border-radius: 0px 0px 5px 5px;}
+		
